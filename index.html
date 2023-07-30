@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- this tag makes the app look better on different devices /.doesnt shrink-->
+        <title>Counter-App</title>
+    </head>
+    <body>
+        <div class="main border">
+            <div class="header">
+                <div class="counter-box" class="border">
+                    <p id="counter-el">0</p>         
+                </div>
+                <button class="header-box" id="btn-count">Push</button>
+                <input class="header-box" type="date" id="date-input">
+                <button class="header-box" id="btn-save">Save</button>
+            </div>
+            <div class="footer">
+                <div class="data-container">
+                    <div class="col">
+                        <ul id="loglist-el">
+                        </ul>    
+                    </div>
+                    <div class="col">
+                        <ul id="clicklist-el">
+                        </ul>
+                    </div>
+                    <div class="col datediv">
+                        <ul id="datelist-el">
+                        </ul>
+                    </div>
+                </div>    
+                <!--<button id="btn-delete">Delete Data</button>-->
+            </div>
+        </div>
+
+        <script src="index.js" type="module"></script>       
+    </body>   
+</html>
