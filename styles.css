@@ -80,7 +80,7 @@ html body {
 
 .data-container{
     margin-left: -50px;
-    border: 2px white dotted;
+
     display: flex;
     justify-content: center;
     gap: 20px;
